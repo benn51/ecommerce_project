@@ -1,0 +1,9 @@
+package com.onlinemarket.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+
+public class UpdateClothController implements UpdateClothControllerInterface {
+
+}

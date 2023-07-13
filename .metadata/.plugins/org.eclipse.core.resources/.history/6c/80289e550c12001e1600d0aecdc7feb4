@@ -1,0 +1,67 @@
+package com.onlinemarket.dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
+import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
+
+import com.onlinemarket.dao.InsertOrderDao.SqlParams;
+import com.onlinemarket.entity.CatagoryType;
+import com.onlinemarket.entity.Phones;
+
+public class CreatePhoneDao implements CreatePhoneDaoInterface {
+
+	@Autowired
+	private NamedParameterJdbcTemplate jdbcTemplate;
+	
+	@Override
+	public Phones takePhoneOrder(String phoneId, String phoneColor, int phoneMemory, CatagoryType catagory, int price) {
+		
+		
+		//@formtter off
+		
+		String sql= " INSERT INTO phones ( " 
+				   + "  phone_id, phone_color, phone_memory, "
+				   + "   phone_price, catagory "
+				   +    " ) "
+				   + " VALUES  ( :phone_id, :phone_color, :phone_memory,"
+				   + " :phone_price,  :catagory"
+				   + " ) "	;	
+		//@formtter on
+		
+		 SqlParams params = new SqlParams();
+		    
+		    params.sql = sql;
+		    params.source.addValue("phone_id", phoneId );
+		    params.source.addValue("phone_color", phoneColor);
+		    params.source.addValue("phone_memory", phoneMemory);
+		    params.source.addValue("phone_price",price);
+		    params.source.addValue("catagory", catagory);
+		    
+		    
+		    jdbcTemplate.update(params.sql,params.source);
+		    
+		    return Phones.builder()
+		    		.phoneId(phoneId)
+		    		.phoneColor(phoneColor)
+		    		.phoneMemory(phoneMemory)
+		    		.price(price)
+		    		.catagory(catagory)
+		    		.build();
+		
+		
+		
+		
+		
+		
+		
+		
+		return null;
+	}
+	class SqlParams{
+		String sql;
+		MapSqlParameterSource source = new MapSqlParameterSource();
+	      
+
+	    }
+	
+}

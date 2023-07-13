@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:shoes;mode=MYSQL
+
+
+logging:
+  level:
+   root: warn
+   '[com.onlinemarket]': debug

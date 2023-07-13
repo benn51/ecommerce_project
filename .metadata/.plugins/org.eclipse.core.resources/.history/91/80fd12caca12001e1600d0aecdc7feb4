@@ -1,0 +1,9 @@
+package com.onlinemarket.controller;
+
+@RestController
+public class DeleteShoesController implements DeleteShoesControllerInterface {
+
+	
+	
+	
+}

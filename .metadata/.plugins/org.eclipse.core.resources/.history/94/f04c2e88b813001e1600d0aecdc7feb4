@@ -1,0 +1,14 @@
+package com.onlinemarket.dao;
+
+import com.onlinemarket.entity.Cloths;
+
+public class UpdateClothDao implements UpdateClothDaoInterface {
+
+	@Override
+	public Cloths updateCloth(String clothId) {
+		
+		return null;
+	}
+
+	
+}

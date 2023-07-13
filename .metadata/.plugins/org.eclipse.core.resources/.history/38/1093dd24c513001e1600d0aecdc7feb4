@@ -1,0 +1,28 @@
+package com.onlinemarket.dao;
+
+import com.onlinemarket.entity.Cloths;
+
+public class UpdateClothDao implements UpdateClothDaoInterface {
+
+	@Override
+	public Cloths updateCloth(String clothId) {
+		
+		//@formmater :off
+		
+		String sql= ""
+				+ "UPDATE TABLE cloths "
+				+ " SET  cloth_price = :cloth_price , cloth_color = :cloth_color,  "
+				+"  cloth_price = :cloth_price "
+				+  " where cloth_Id= :cloth:Id " ;
+		
+		//@formmater :ofn
+		
+		
+		
+		
+		
+		return null;
+	}
+
+	
+}

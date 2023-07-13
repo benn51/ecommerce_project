@@ -1,0 +1,9 @@
+package com.onlinemarket.dao;
+
+import com.onlinemarket.entity.Shoes;
+
+public interface DeleteCustomersDaoInterface {
+
+	Shoes deleteShoe( String shoeId );
+	
+}

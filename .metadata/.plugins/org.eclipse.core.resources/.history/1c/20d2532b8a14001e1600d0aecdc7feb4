@@ -1,0 +1,6 @@
+package com.onlinemarket.controller;
+
+public class FetchCustomerConroller implements FetchCustomerControllerInterface {
+	
+
+}

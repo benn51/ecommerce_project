@@ -1,0 +1,15 @@
+package com.onlinemarket.dao;
+
+import org.springframework.stereotype.Component;
+
+import com.onlinemarket.entity.Customers;
+
+@Component
+public class FetchCustomerDao implements FetchCustomerDaoInterface {
+
+	public Customers fetchCustomer(String customerId) {
+		
+		return null;
+	}
+
+}

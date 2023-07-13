@@ -1,0 +1,19 @@
+package com.onlinemarket.entity;
+
+import lombok.Builder;
+import lombok.Data;
+
+
+@Data
+@Builder
+public class Shoes {
+
+	private Integer shoePk;
+	private String shoeId;
+	private String shoeColor;
+	private Integer shoeSize;
+	private  String Catagory;;
+	private int price;
+}
+
+

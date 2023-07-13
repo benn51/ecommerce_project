@@ -1,0 +1,15 @@
+package com.onlinemarket.service;
+
+import com.onlinemarket.entity.CatagoryType;
+import com.onlinemarket.entity.Phones;
+
+public class CreatePhoneService implements CreatePhoneServiceInterface {
+
+	@Override
+	public Phones takePhoneOrder(String phoneId, String phoneColor, int phoneMemory, String phone,
+			CatagoryType catagory, int price) {
+		
+		return null;
+	}
+
+}

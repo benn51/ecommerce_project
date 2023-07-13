@@ -1,0 +1,5 @@
+package com.onlinemarket.controller;
+
+public interface UpdateClothControllerInterface {
+
+}

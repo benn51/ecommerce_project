@@ -1,0 +1,13 @@
+package com.onlinemarket.dao;
+
+import com.onlinemarket.entity.Shoes;
+
+public class DeleteShoesDao implements DeleteShoesDaoInterface {
+
+	@Override
+	public Shoes deleteShoe(String shoeId) {
+		
+		return null;
+	}
+
+}

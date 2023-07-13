@@ -1,0 +1,12 @@
+package com.onlinemarket.service;
+
+import com.onlinemarket.entity.Customers;
+
+public class FetchCustomerService implements FetchCustomerServiceInterface {
+
+	public Customers fetchCustomer(String customerId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

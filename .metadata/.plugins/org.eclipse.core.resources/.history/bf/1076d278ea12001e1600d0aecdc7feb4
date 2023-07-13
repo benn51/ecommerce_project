@@ -1,0 +1,5 @@
+package com.onlinemarket.service;
+
+public class UpdateClothService implements UpdateClothServiceInterface {
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.onlinemarket.controller.InsertItems&apos; to &apos;InsertItemsController&apos;&#x0A;- Original project: &apos;online-market&apos;&#x0A;- Original element: &apos;com.onlinemarket.controller.InsertItems&apos;&#x0A;- Renamed element: &apos;com.onlinemarket.controller.InsertItemsController&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;InsertItems&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.onlinemarket.controller{InsertItems.java[InsertItems" matchStrategy="1" name="InsertItemsController" qualified="false" references="true" similarDeclarations="false" stamp="1685737931881" textual="false" version="1.0"/>
+</session>

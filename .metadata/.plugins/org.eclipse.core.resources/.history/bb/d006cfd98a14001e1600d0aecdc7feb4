@@ -1,0 +1,6 @@
+package com.onlinemarket.dao;
+
+
+public interface FetchCustomerDaoInterface {
+
+}

@@ -1,0 +1,13 @@
+package com.onlinemarket.dao;
+
+import com.onlinemarket.entity.Customers;
+
+public class CreateNewCustomerDao implements CreateNewCustomerDaoInterface {
+	
+@Override
+	public Customers createNewCustomer(String customerId, String firstName, String lastName, int phoneNumber) {
+		
+		return null;
+	}
+
+}

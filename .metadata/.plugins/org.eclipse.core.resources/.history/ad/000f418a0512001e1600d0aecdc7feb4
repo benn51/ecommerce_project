@@ -1,0 +1,5 @@
+package com.onlinemarket.dao;
+
+public class CreatePhoneDao implements CreatePhoneDaoInterface {
+
+}

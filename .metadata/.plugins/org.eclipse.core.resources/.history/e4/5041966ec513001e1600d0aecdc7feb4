@@ -1,0 +1,37 @@
+package com.onlinemarket.dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
+
+import com.onlinemarket.entity.Cloths;
+
+public class UpdateClothDao implements UpdateClothDaoInterface {
+
+	
+	@Autowired 
+	NamedParameterJdbcTemplate jdbcTemplate;
+	
+	@Override
+	public Cloths updateCloth(String clothId, int clothPrice) {
+		
+	
+		
+		//@formmater :off
+		
+		String sql= ""
+				+ "UPDATE TABLE cloths "
+				+ " SET  cloth_price = :cloth_price , cloth_color = :cloth_color,  "
+				+"  cloth_price = :cloth_price "
+				+  " where cloth_Id= :cloth:Id " ;
+		
+		//@formmater :ofn
+		
+		
+		
+		
+		
+		return null;
+	}
+
+	
+}

@@ -1,0 +1,10 @@
+package com.onlinemarket.dao;
+
+import com.onlinemarket.entity.Cloths;
+
+public interface UpdateClothDaoInterface {
+
+	Cloths UpdateCloth(String clothId ) ;
+		
+	
+}
