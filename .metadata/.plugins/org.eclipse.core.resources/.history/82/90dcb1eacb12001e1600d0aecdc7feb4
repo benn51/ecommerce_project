@@ -1,5 +1,0 @@
-package com.onlinemarket.dao;
-
-public class DeleteShoesDao implements DeleteShoesDaoInterface {
-
-}

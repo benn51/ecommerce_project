@@ -1,8 +1,0 @@
-package com.onlinemarket.service;
-
-import com.onlinemarket.entity.Shoes;
-
-public interface DeleteCustomerServiceInterface {
-
-	Shoes deleteShoe( String shoeId );
-}

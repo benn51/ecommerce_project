@@ -1,5 +1,0 @@
-package com.onlinemarket.service;
-
-public interface CreateNewCustomerServiceInterface {
-
-}

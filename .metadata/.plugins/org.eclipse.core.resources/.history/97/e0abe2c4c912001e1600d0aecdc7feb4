@@ -1,5 +1,0 @@
-package com.onlinemarket.controller;
-
-public interface DeleteShoesInterface {
-
-}

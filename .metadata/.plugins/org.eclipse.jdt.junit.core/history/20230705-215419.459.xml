@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="FetchItems (1)" project="online-market" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="com.onlinemarket.controller.FetchItems" time="1.029" displayname="FetchItems" uniqueid="[engine:junit-jupiter]/[class:com.onlinemarket.controller.FetchItems]">
-    <testcase name="testFetchitems" classname="com.onlinemarket.controller.FetchItems" time="1.029" displayname="testFetchitems()" uniqueid="[engine:junit-jupiter]/[class:com.onlinemarket.controller.FetchItems]/[method:testFetchitems()]"/>
-  </testsuite>
-</testrun>

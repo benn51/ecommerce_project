@@ -1,9 +1,0 @@
-package com.onlinemarket.service;
-
-import org.springframework.stereotype.Service;
-
-@Service
-public class DeleteShoesService implements DeleteShoesServiceInterface {
-	deltePhone
-
-}

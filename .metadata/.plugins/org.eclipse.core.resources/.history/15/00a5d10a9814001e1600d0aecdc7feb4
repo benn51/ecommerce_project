@@ -1,8 +1,0 @@
-package com.onlinemarket.service;
-
-import com.onlinemarket.entity.Cloths;
-
-public interface UpdateCustomerServiceInterface {
-
-	public Cloths updateCloth(String clothId,int clothPrice);
-}

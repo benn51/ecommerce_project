@@ -1,17 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-    <typeInfo handle="=online-market/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.onlinemarket.service{InsertOrderServiceInterface.java[InsertOrderServiceInterface" modifiers="513" timestamp="1687488691000"/>
-    <typeInfo handle="=online-market/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.onlinemarket.controller{CreatePhoneControllerInterface.java[CreatePhoneControllerInterface" modifiers="513" timestamp="1687561512000"/>
-    <typeInfo handle="=online-market/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.onlinemarket.service{CreatePhoneServiceInterface.java[CreatePhoneServiceInterface" modifiers="513" timestamp="1687561591000"/>
-    <typeInfo handle="=online-market/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.onlinemarket.dao{CreatePhoneDaoInterface.java[CreatePhoneDaoInterface" modifiers="513" timestamp="1687566769000"/>
-    <typeInfo handle="=online-market/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.onlinemarket.controller{DeleteShoesControllerInterface.java[DeleteShoesControllerInterface" modifiers="513" timestamp="1687641574000"/>
-    <typeInfo handle="=online-market/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.onlinemarket.dao{DeleteShoesDaoInterface.java[DeleteShoesDaoInterface" modifiers="513" timestamp="1687644399000"/>
-    <typeInfo handle="=online-market/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.onlinemarket.controller{UpdateClothControllerInterface.java[UpdateClothControllerInterface" modifiers="513" timestamp="1687748384000"/>
-    <typeInfo handle="=online-market/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.onlinemarket.service{UpdateClothServiceInterface.java[UpdateClothServiceInterface" modifiers="513" timestamp="1687744749000"/>
-    <typeInfo handle="=online-market/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.onlinemarket.dao{UpdateClothDaoInterface.java[UpdateClothDaoInterface" modifiers="513" timestamp="1687744776000"/>
-    <typeInfo handle="=online-market/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.onlinemarket.service{CreateNewCustomerServiceInterface.java[CreateNewCustomerServiceInterface" modifiers="513" timestamp="1687827714000"/>
-    <typeInfo handle="=online-market/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.onlinemarket.controller{CreateNewCustomerControllerInterface.java[CreateNewCustomerControllerInterface" modifiers="513" timestamp="1687827733000"/>
-    <typeInfo handle="=online-market/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.onlinemarket.dao{CreateNewCustomerDaoInterface.java[CreateNewCustomerDaoInterface" modifiers="513" timestamp="1687827697000"/>
-    <typeInfo handle="=online-market/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.onlinemarket.controller{FetchCustomerControllerInterface.java[FetchCustomerControllerInterface" modifiers="513" timestamp="1687830280000"/>
-    <typeInfo handle="=online-market/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.onlinemarket.dao{FetchCustomerDaoInterface.java[FetchCustomerDaoInterface" modifiers="513" timestamp="1687829708000"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>
